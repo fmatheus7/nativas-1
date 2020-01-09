@@ -3,16 +3,20 @@
     text-align: center; /* center the text */
     background: #1abc9c; /* green background */
     color: white; /* white text color */
+    font-family: 'Roboto', sans-serif;
+
   }
   
   /* Increase the font size of the <h1> element */
   .header h1 {
     font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+
   }
 /* Style the header with a grey background and some padding */
 .navbar {
     overflow: hidden;
-    background-color: #f1f1f1;
+    background-color: white;
     padding: 20px 10px;
   }
   
@@ -26,6 +30,8 @@
     font-size: 18px;
     line-height: 25px;
     border-radius: 4px;
+    font-family: 'Roboto', sans-serif;
+
   }
   
   /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
@@ -44,11 +50,13 @@
   .navbar a.active {
     background-color: dodgerblue;
     color: white;
+    
   }
   
   /* Float the link section to the right */
   .navbar-right {
     float: right;
+    margin-top: 30px;
   }
   
   /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
@@ -63,7 +71,17 @@
     }
   }
 
-
+#contact {
+text-size-adjust: 100%;
+font-size: 15px;
+font-family: "Raleway", sans-serif;
+text-align: center;
+line-height: 1.8;
+box-sizing: inherit;
+color: rgb(0, 0, 0) !important;
+background-color: rgb(241, 241, 241) !important;
+padding: 128px 16px;
+}
 
   #footer {
     padding: 20px; /* Some padding */
